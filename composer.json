@@ -1,0 +1,31 @@
+{
+    "name": "obms/theme-aurora",
+    "type": "obms-theme",
+    "description": "The OBMS Aurora theme.",
+    "keywords": ["obms", "open business management software"],
+    "license": "BUSL-1.1",
+    "homepage": "https://getobms.com",
+    "support": {
+        "docs": "https://docs.getobms.com",
+        "email": "support@getobms.com",
+        "issues": "https://github.com/OBMS-Open-Business-Management-Software/core/issues",
+        "source": "https://github.com/OBMS-Open-Business-Management-Software/core"
+    },
+    "extra": {
+        "dir": "aurora"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13"
+    },
+    "require": {
+        "php": "^8.2",
+        "obms/composer-installer": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "obms/composer-installer": true,
+            "php-http/discovery": true
+        }
+    }
+}
