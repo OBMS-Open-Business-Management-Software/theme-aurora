@@ -8,8 +8,8 @@
         "hot": "mix watch --hot --mix-config=src/webpack.mix.js",
         "prod": "npm run production",
         "production": "mix --production --mix-config=src/webpack.mix.js",
-        "lint": "blade-formatter --wrap-attributes=preserve --check-formatted src/**/*.blade.php",
-        "fix": "blade-formatter --wrap-attributes=preserve --write src/**/*.blade.php"
+        "lint": "blade-formatter src/**/*.blade.php",
+        "fix": "blade-formatter --write src/**/*.blade.php"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.3",
