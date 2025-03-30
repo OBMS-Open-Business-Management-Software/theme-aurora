@@ -7,9 +7,7 @@
         "watch-poll": "mix watch --mix-config=src/webpack.mix.js -- --watch-options-poll=1000",
         "hot": "mix watch --hot --mix-config=src/webpack.mix.js",
         "prod": "npm run production",
-        "production": "mix --production --mix-config=src/webpack.mix.js",
-        "lint": "blade-formatter --wrap-attributes=preserve --check-formatted src/**/*.blade.php",
-        "fix": "blade-formatter --wrap-attributes=preserve --write src/**/*.blade.php"
+        "production": "mix --production --mix-config=src/webpack.mix.js"
     },
     "devDependencies": {
         "@commitlint/cli": "^16.2.3",
