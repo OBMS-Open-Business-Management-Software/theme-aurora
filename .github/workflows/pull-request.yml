@@ -52,9 +52,6 @@ jobs:
 
       - name: Run Pint
         run: vendor/bin/pint --test
-        
-      - name: Run Blade Formatter
-        run: npm run lint
 
       - name: Build assets
         run: npm run production

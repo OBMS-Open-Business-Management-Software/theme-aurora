@@ -32,9 +32,7 @@
                                         <img
                                             src="{{ config('company.logo') ?? theme_asset('aurora', 'images/full.logo.svg') }}">
                                         @if (config('app.slogan'))
-                                            <div class="slogan-stacked small">
-                                                {{ config('app.slogan', 'Open Business Management Software') }}
-                                            </div>
+                                            <div class="slogan-stacked small">{{ config('app.slogan', 'Open Business Management Software') }}</div>
                                         @endif
                                     </div>
                                 </div>
