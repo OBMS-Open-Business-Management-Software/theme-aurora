@@ -71,9 +71,16 @@
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-primary w-100">
-                                        {{ __('interface.actions.login') }}
-                                    </button>
+                                    <div class="d-flex">
+                                        <button type="submit" class="btn btn-primary w-100">
+                                            {{ __('interface.actions.login') }}
+                                        </button>
+                                        @if (config('sso.provider'))
+                                            <a class="btn btn-outline-primary ml-2" href="{{ route('auth.sso.redirect') }}">
+                                                <i class="bi bi-buildings"></i>
+                                            </a>
+                                        @endif
+                                    </div>
 
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link w-100 mt-1" href="{{ route('password.request') }}">
