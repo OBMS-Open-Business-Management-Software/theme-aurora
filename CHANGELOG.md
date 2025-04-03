@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/compare/v1.0.2...v1.1.0) (2025-04-03)
+
+
+### Features
+
+* sso support ([1f5fff7](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/commit/1f5fff7d20b267e5427ea146d8abbb1b54805cfb))
+
 ## [1.0.2](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/compare/v1.0.1...v1.0.2) (2025-03-30)
 
 
