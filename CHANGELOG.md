@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/compare/v1.1.0...v1.1.1) (2025-04-05)
+
+
+### Bug Fixes
+
+* preconfigured product conditions ([acad220](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/commit/acad22059eed842e79479d15611a787c747d186b))
+
 ## [1.1.0](https://github.com/OBMS-Open-Business-Management-Software/theme-aurora/compare/v1.0.2...v1.1.0) (2025-04-03)
 
 
