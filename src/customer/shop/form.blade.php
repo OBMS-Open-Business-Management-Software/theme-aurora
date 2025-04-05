@@ -45,7 +45,7 @@
                                 {!! __($form->description) !!}
                             </div>
                         </div>
-                        @if ($form->type == 'form')
+                        @if ($form->type == 'form' && ! empty($form->fields->where('type', '!=', 'input_hidden')->isNotEmpty()))
                             <div class="card mb-4">
                                 <div class="card-header text-decoration-none">
                                     <i class="bi bi-wrench"></i> {{ __('interface.misc.configuration') }}
